@@ -99,8 +99,16 @@
   );
 }
 
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+
 .animation-delay-2000 {
   animation-delay: 2s;
+}
+
+.animation-delay-3000 {
+  animation-delay: 3s;
 }
 
 .animation-delay-4000 {
@@ -167,5 +175,10 @@
 
 .hover\:rotate-x-6:hover {
   transform: rotateX(6deg);
+}
+
+/* Arrow shape for the cloud download icon */
+.clip-arrow-down {
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
 }
 
